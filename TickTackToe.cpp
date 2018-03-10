@@ -81,8 +81,8 @@ if(checkWin(GameState) !=0 || turn == 10 || (GameState[0] == 0 && turn == 9) ){ 
 if(checkWin(GameState)==1){		//fun fact: this block used to be a switch statement
 xWins++;						// but for whatever reason, it didn't work
 cout << "X Wins" << endl;}		//likely a sintax error somewhere, lol.
-if(checkWin(GameState)==2){		// Instead of debuging, I said f--- it, I will just make 3 if statements, would be quicker
-oWins++;						// and now this code updates the number of wins perfectly
+if(checkWin(GameState)==2){		 
+oWins++;						 
 cout << "o Wins" << endl;}		
 if(checkWin(GameState)==0){		
 draws++;
